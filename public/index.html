@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Trucks</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id='HUD'>
+        <snap id='scoreP'>Score:0</snap>
+        <snap id='energyP'>Energy:10</snap>
+    </div>
+    <div id="events">
+        <snap class = "bold">Server Events</snap>
+    </div>
+    <div id="chat">
+            <snap class = "bold">Chat</snap>
+        <div id="msg"></div>
+        <div id="input">
+            <input type="text" placeholder="Enter messages" id="message">
+            <br>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+    <script src="functions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

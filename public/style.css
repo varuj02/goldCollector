@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    }
+#events , #chat {
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;
+    border: 1px solid black ;
+    height: 500px;
+
+    padding: 20px;
+    margin: 7px;
+    border-radius: 10px; 
+}
+div#chat{
+    float:right;
+    width:250px;
+}
+#events{
+    width:200px;
+    float:left;
+}
+#scoreP , #energyP {
+    padding:1px 150px;
+    border: 1px solid black ;
+    border-radius: 3px; 
+    margin: 10px;
+    font-size: 20px;
+}
+#HUD{
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    border: 1px solid black ;
+    border-radius: 10px; 
+    margin:5px 0;
+    display:inline-table;
+    padding:10px 5px;
+}
+canvas{
+    border:2px  solid black;
+    border-radius: 5px; 
+
+}
+#input{
+    position: absolute;
+    top: 490px;
+    display: inline-flex;  
+}
+.bold{
+    text-align: center;
+    font-size: 25px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#submit{
+    border-radius: 5px;
+    margin: 2px;
+}
+p{
+    margin:5px;
+}
+/* #scoreP{
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+#energyP{
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+} */
